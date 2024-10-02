@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background:#8d7a7a41;
+  --foreground: #a99a9a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,11 +17,16 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Times New Roman', Times, serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.gra{
+  color: transparent;
+background-clip: text;
+background-image: linear-gradient(to right, #218bff, #c084fc, #db2777);
 }
