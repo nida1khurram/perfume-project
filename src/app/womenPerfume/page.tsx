@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 export default function Women() {
   return (
  
-<section className="text-blue-800 body-font" id='women'>
+<section className="text-blue-800 body-font" >
     
 <h1 className="title-font sm:text-4xl text-4xl my-20 font-medium text-gray-600 text-center">
         <Typewriter

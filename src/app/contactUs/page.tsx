@@ -1,8 +1,8 @@
-
-
+"use client"
 
 import React from 'react'
 import Link from 'next/link';
+import Typewriter from "typewriter-effect";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -11,15 +11,18 @@ export default function ContactUs() {
   return (
     <div>
         <section className="text-gray-600 body-font relative">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-col text-center w-full mb-12">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-        Contact Us
+  <div className="container px-5 py-10 mx-auto">
+    <div className="flex flex-col text-center w-full mb-5">
+    {/*  */}
+    <h1 className="title-font sm:text-4xl text-4xl my-10 font-medium text-gray-600 text-center">
+        <Typewriter
+          options={{
+            strings: ["Contact Us "],
+            autoStart: true,
+            loop: true,
+          }}
+        />
       </h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-        Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-        gentrify.
-      </p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
       <div className="flex flex-wrap -m-2">

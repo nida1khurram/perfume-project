@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 export default function About() {
   return (
     <>
-        <section className="text-gray-600 body-font" id='about'>
+        <section className="text-gray-600 body-font" >
   <div className="container px-5 py-10 mx-auto">
     <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
     

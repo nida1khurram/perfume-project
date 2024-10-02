@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 export default function GiftSet() {
   return (
  
-<section className="text-blue-800 body-font" id='giftSet'>
+<section className="text-blue-800 body-font" >
     
 <h1 className="title-font sm:text-4xl text-4xl mt-10 font-medium text-gray-600 text-center">
         <Typewriter
