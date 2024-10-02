@@ -30,3 +30,11 @@ body {
 background-clip: text;
 background-image: linear-gradient(to right, #218bff, #c084fc, #db2777);
 }
+
+.swiperSlide{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
