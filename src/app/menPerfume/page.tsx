@@ -18,11 +18,11 @@ export default function Men() {
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-wrap -m-4 cursor-pointer">
           {/* 1 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block hover:border-2 "
+                className="object-cover object-center w-full h-full block  "
                 src={require("../../../picture/Perfume-men/BrioniEdp-2.png")}
               />
             </a>
@@ -38,7 +38,7 @@ export default function Men() {
           </div>
 
           {/* 2 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
@@ -58,7 +58,7 @@ export default function Men() {
           </div>
 
           {/* 3 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
@@ -78,7 +78,7 @@ export default function Men() {
           </div>
 
           {/* 4 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
@@ -98,7 +98,7 @@ export default function Men() {
           </div>
 
           {/* 5 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
@@ -118,7 +118,7 @@ export default function Men() {
           </div>
 
           {/* 6 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
@@ -137,7 +137,7 @@ export default function Men() {
             </div>
           </div>
           {/* 7 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
@@ -156,7 +156,7 @@ export default function Men() {
             </div>
           </div>
           {/* 8 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"

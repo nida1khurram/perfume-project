@@ -27,7 +27,7 @@ export default function Women() {
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
+            className="object-cover object-center w-full h-full block hover:animate-pulse"
             src={require("../../../picture/perfume-women/BURBERRYMYBURBERRYBLUSHEDP50ML.png")}
           />
                     </a>
@@ -47,7 +47,7 @@ export default function Women() {
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
+            className="object-cover object-center w-full h-full block hover:animate-pulse"
             src={require("../../../picture/perfume-women/KilianMoonlightinHeaven.png")}
           />
                     </a>
@@ -67,7 +67,7 @@ export default function Women() {
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
+            className="object-cover object-center w-full h-full block hover:animate-pulse"
             src={require("../../../picture/perfume-women/CarolinaHererra212SexyEdp100ml.png")}
           />
                     </a>
@@ -87,7 +87,7 @@ export default function Women() {
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
+            className="object-cover object-center w-full h-full block hover:animate-pulse"
             src={require("../../../picture/perfume-women/PacoRobanneOlympeaEDP80ml.png")}
           />
                     </a>
@@ -107,7 +107,7 @@ export default function Women() {
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
+            className="object-cover object-center w-full h-full block hover:animate-pulse"
             src={require("../../../picture/perfume-women/CKEternityFlameWomen100ml.png")}
           />
                     </a>
@@ -127,7 +127,7 @@ export default function Women() {
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
+            className="object-cover object-center w-full h-full block hover:animate-pulse"
             src={require("../../../picture/perfume-women/PureXSforHerEDP.png")}
           />
                     </a>
@@ -146,7 +146,7 @@ export default function Women() {
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
+            className="object-cover object-center w-full h-full block hover:animate-pulse"
             src={require("../../../picture/perfume-women/ThierryMuglerAlien90medp.png")}
           />
                     </a>
@@ -165,7 +165,7 @@ export default function Women() {
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
+            className="object-cover object-center w-full h-full block hover:animate-pulse"
             src={require("../../../picture/perfume-women/TomFordBlackOrchidE.png")}
           />
                     </a>

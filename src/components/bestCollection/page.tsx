@@ -18,7 +18,7 @@ export default function ShopCollection() {
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-wrap -m-4">
           {/* 1 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
                 <Link href={'/menPerfume'}>
               <Image
                 alt="menPerfume"
@@ -32,7 +32,7 @@ export default function ShopCollection() {
           </div>
             {/* 1 */}
           {/* 2 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
                 <Link href={'/womenPerfume'}>
               <Image
                 alt="womenPerfume"
@@ -46,7 +46,7 @@ export default function ShopCollection() {
           </div>
           {/* 3 */}
          
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
                 <Link href={'/giftSet'}>
               <Image
                 alt="menPerfume"

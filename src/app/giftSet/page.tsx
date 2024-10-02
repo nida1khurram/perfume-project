@@ -23,12 +23,14 @@ export default function GiftSet() {
         <div className="container px-5 py-10 mx-auto ">
            <div className="flex flex-wrap -m-4  cursor-pointer">
                 {/* 1 */}
-                <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-pulse">
                     <a className="block relative h-96 rounded overflow-hidden">
                         <Image
-            alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
-            src={require("../../../picture/gift-set/GiftSet.png")}
+            alt="menPerfume" 
+            width={500}
+            height={500}
+            className="object-cover object-center w-full h-full block "
+            src={require("../../../picture/gift-set/set1.jpg")}
           />
                     </a>
                     <div className="mt-4">
@@ -44,12 +46,12 @@ export default function GiftSet() {
              </div>
 
         {/* 2 */}
-        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                    <a className="block relative h-96 rounded overflow-hidden">
+        <div className="lg:w-1/4 md:w-1/2 p-4 w-full  hover:animate-pulse">
+                    <a className="block relative h-96 rounded overflow-hidden ">
                         <Image
             alt="menPerfume"
-            className="object-cover object-center w-full h-full block"
-            src={require("../../../picture/gift-set/piecesGiftSet.png")}
+            className="object-cover object-center w-full h-full block "
+            src={require("../../../picture/gift-set/set2.jpg")}
           />
                     </a>
                     <div className="mt-4 ">
