@@ -14,7 +14,7 @@ export default function ContactUs() {
   <div className="container px-5 py-10 mx-auto">
     <div className="flex flex-col text-center w-full mb-5">
     {/*  */}
-    <h1 className="title-font sm:text-4xl text-4xl my-10 font-medium text-gray-600 text-center">
+    <h1 className="title-font sm:text-4xl text-4xl my-10 font-medium text-gray-500 text-center">
         <Typewriter
           options={{
             strings: ["Contact Us "],

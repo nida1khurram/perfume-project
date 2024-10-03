@@ -18,11 +18,11 @@ export default function Men() {
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-wrap -m-4 cursor-pointer">
           {/* 1 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block  "
+                className="object-cover object-center w-full h-full block  hover:animate-pulse"
                 src={require("../../../picture/Perfume-men/BrioniEdp-2.png")}
               />
             </a>
@@ -38,7 +38,7 @@ export default function Men() {
           </div>
 
           {/* 2 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-pulse">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
@@ -58,11 +58,11 @@ export default function Men() {
           </div>
 
           {/* 3 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block hover:animate-pulse"
                 src={require("../../../picture/Perfume-men/BURBERRYMRBURBERRYE  (2).png")}
               />
             </a>
@@ -78,11 +78,11 @@ export default function Men() {
           </div>
 
           {/* 4 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block hover:animate-pulse"
                 src={require("../../../picture/Perfume-men/DiorHommeParfum.png")}
               />
             </a>
@@ -98,11 +98,11 @@ export default function Men() {
           </div>
 
           {/* 5 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block hover:animate-pulse"
                 src={require("../../../picture/Perfume-men/BvlgariMeninBlack100ml.png")}
               />
             </a>
@@ -118,11 +118,11 @@ export default function Men() {
           </div>
 
           {/* 6 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block hover:animate-pulse"
                 src={require("../../../picture/Perfume-men/DOLCE_GABBANA.png")}
               />
             </a>
@@ -137,11 +137,11 @@ export default function Men() {
             </div>
           </div>
           {/* 7 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block hover:animate-pulse"
                 src={require("../../../picture/Perfume-men/KilianFlowerofImmortality.png")}
               />
             </a>
@@ -156,11 +156,11 @@ export default function Men() {
             </div>
           </div>
           {/* 8 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
             <a className="block relative h-96 rounded overflow-hidden">
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block hover:animate-pulse"
                 src={require("../../../picture/Perfume-men/ClubDeNuitOud.png")}
               />
             </a>

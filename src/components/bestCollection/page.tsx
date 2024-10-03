@@ -19,11 +19,11 @@ export default function ShopCollection() {
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-wrap -m-4">
           {/* 1 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                 <Link href={'/menPerfume'}>
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block  hover:animate-bounce"
                 src={require("../../../picture/Perfume-men/BvlgariMeninBlack100ml.png")}
               />
               <h2 className="text-gray-600 title-font text-lg font-medium text-center hover:text-blue-500">
@@ -33,11 +33,11 @@ export default function ShopCollection() {
           </div>
             {/* 1 */}
           {/* 2 */}
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                 <Link href={'/womenPerfume'}>
               <Image
                 alt="womenPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block hover:animate-bounce"
                 src={require("../../../picture/perfume-women/BURBERRYMYBURBERRYBLUSHEDP50ML.png")}
               />
               <h2 className="text-gray-600 title-font text-lg font-medium text-center hover:text-blue-500">
@@ -47,11 +47,11 @@ export default function ShopCollection() {
           </div>
           {/* 3 */}
          
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:animate-bounce">
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
                 <Link href={'/giftSet'}>
               <Image
                 alt="menPerfume"
-                className="object-cover object-center w-full h-full block"
+                className="object-cover object-center w-full h-full block hover:animate-bounce"
                 src={require("../../../picture/gift-set/GiftSet.png")}
               />
               <h2 className="text-gray-600 title-font text-lg font-medium text-center hover:text-blue-500">
